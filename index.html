@@ -2,40 +2,51 @@
 <html lang="es">
 
 <head>
+    <!-- Configuración básica del documento HTML -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío 1 - Calculando el Total con JS</title>
+
+    <!-- Enlace al archivo CSS para estilos -->
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
-
+    <!-- Sección principal que contiene la tarjeta del producto -->
     <section>
-        <div class="card">
-            <div class="img-card"></div>
-              <h6>Laptop Gamer AMD</h6>
-              <p>Precio base: $<span class="precio-inicial"></span> </p>
-        
-              <p>Cantidad:
-                <span class="cantidad">0</span>
-                <button 
-                >+</button>
-                <button
-                >-</button>
-              </p>
-            </div>
 
+        <!-- Contenedor de la tarjeta del producto -->
+        <div class="card">
+
+            <!-- Contenedor de la imagen del producto -->
+            <div class="img-card"></div>
+
+                <!-- Título del producto -->  
+                <h6>Laptop Gamer AMD</h6>
+
+                <!-- Precio base del producto -->
+                <p>Precio base (COP): $<span class="precio-inicial"></span> </p>
+
+                <!-- Sección para modificar la cantidad del producto -->
+                <p>Cantidad: <span class="cantidad">0</span>
+
+                    <!-- Botón para incrementar la cantidad -->
+                    <button id="btn-incrementar">+</button>
+
+                    <!-- Botón para decrementar la cantidad -->
+                    <button id="btn-decrementar">-</button>
+                </p>
+            </div>
         </div>
     </section>
 
+    <!-- Sección para mostrar el total a pagar -->
     <div class="total-section">
-        <p>Total a pagar: $<span class="valor-total"></span> </p>
+        <p>Total a pagar: $<span class="valor-total"></span></p>
     </div>
 
-    <script src="assets/js/script.js">
-      
-
-    </script>
+    <!-- Enlace al archivo JavaScript para la interacción -->
+    <script src="assets/js/script.js">    </script>
 </body>
 </html>
