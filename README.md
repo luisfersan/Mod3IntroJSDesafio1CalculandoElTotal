@@ -1,12 +1,10 @@
 # Módulo 3 Introducción a JS - Calculando el Total
 
-
 ## Presentación de Página Web 
-
+![Presentación Página Web](https://github.com/luisfersan/Mod3IntroJSDesafio1CalculandoElTotal/assets/132720650/6246b810-180a-489d-be08-371f14c33f3f)
 <br/>
 
 ---
-
 <br/>
 
 ## Tecnologías Usadas 🛠️
@@ -14,7 +12,6 @@
 - **HTML** 💀
 - **CSS** 🌈
 - **JS** 🧑‍💻
-    
 <br/>
 
 ---
